@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/bg_login.jpeg);
+    background-size: cover;
+    font-family: 'Jacques Francois';
+
+}
+
+.box {
+    position: absolute;
+    left: 32.86%;
+    right: 32.86%;
+    top: 24.78%;
+    bottom: 16.67%;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 20px;
+
+}
+
+.header {
+    left: 32.86%;
+    right: 32.86%;
+    top: 23.73%;
+    bottom: 60.06%;
+
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 30px 30px;
+}
+
+.login-area {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+}
+
+.Username {
+    position: absolute;
+    left: 15.62%;
+    right: 15.62%;
+    top: 30.32%;
+    bottom: 53.2%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 65px;
+    color: #f1eaea;
+    opacity: 0.5;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.password {
+    position: absolute;
+    left: 15.62%;
+    right: 15.62%;
+    top: 54.03%;
+    bottom: 27.59%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #f1eaea;
+    opacity: 0.5;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.submit {
+    padding: 10px;
+    position: absolute;
+    left: 35.64%;
+    right: 39.15%;
+    top: 75.72%;
+    bottom: 13.44%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FAFAFF;
+    background: #000000;
+    mix-blend-mode: hard-light;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Username:focus,
+.password:focus {
+    background-color: rgb(27, 26, 36);
+}
+
+.submit:hover {
+    background-color: #383333;
+}
+
+a {
+    position: absolute;
+    left: 37.03%;
+    right: 38.59%;
+    top: 85.51%;
+    bottom: 26.97%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+
+    opacity: 0.8;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}

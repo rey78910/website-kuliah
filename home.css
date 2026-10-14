@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg_1.jpg);
+    font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    line-height: 1.5;
+    background-attachment: fixed;
+}
+
+.logo-sula {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+h2 {
+    position: absolute;
+    color: #DBFF00;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 175px;
+    left: 60px;
+}
+
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+}
+
+.navbar {
+    display: flex;
+    padding: 5px 0;
+}
+
+.link {
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    padding: 40px;
+}
+
+.mySlides {
+    position: absolute;
+    left: 51px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px black;
+}
+
+img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: absolute;
+    top: 630px;
+    left: 300px;
+    height: 50px;
+    width: 20%;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+    top: 15px;
+    width: auto;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
